@@ -1,6 +1,8 @@
 echo "Getting Proxy List..."
 echo "" > "socks5.txt"
+echo "" > "http.txt"
 wget -O socks5.txt https://proxy.caliph.my.id/proxy/socks5
+wget -O http.txt https://proxy.caliph.my.id/proxy/http
 
 echo "Commit Result to Github"
 git config --global user.email "admin@caliph.my.id"
