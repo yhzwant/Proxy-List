@@ -8,5 +8,5 @@ echo "Commit Result to Github"
 git config --global user.email "admin@caliph.my.id"
 git config --global user.name "caliphdev"
 git add -A
-git commit -m "Update Proxy List"
+git commit -m "Update Proxy List: $(date)"
 git push
